@@ -1,0 +1,123 @@
+
+h1{
+font-family: 'Fraunces', sans-serif;
+}
+.main-section{
+width: 100%;
+height: 100%;
+min-height: 100vh;
+background-image: url(../public/images/desktop/image-header.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.navbar{
+padding: 2rem 1.33rem;
+display: flex;
+justify-content: space-between;
+}
+.bars{
+position: absolute;
+top: 2rem;
+right: 1.33rem;
+cursor:pointer;
+display: none;
+}
+.show-bars{
+display: block;
+}
+.navs{
+display: flex;
+list-style: none;
+}
+
+.navs li a{
+color: var(--White);
+text-decoration: none;
+padding: 0 1.5rem;
+position: relative;
+}
+.navs li a::after{
+content: '';
+position: absolute;
+top: -0.9rem;
+left: -5%;
+width: 110%;
+height: 3rem;
+background-color:var(--White);
+border-radius: 1.5rem;
+opacity: 0.2;
+display: none;
+}
+.navs li a:hover{
+text-transform: uppercase;
+font-family: 'Fraunces', sans-serif;
+font-size: 0.8rem;
+}
+.navs li a:hover::after{
+display: block;
+}
+.tabs{
+display: none;
+width: 90%;
+top: 125px;
+left: 5%;
+background: var(--White); 
+list-style: none;
+color: var(--Very-dark-grayish-blue);
+text-align: center;
+padding: 20px 0;
+font-family: 'Fraunces',sans-serif;
+position: absolute;
+}
+.tabs::after{
+position: absolute;
+content: '';
+width: 0;
+height: 0;
+border-bottom: 10px solid var(--White);
+border-right: 10px solid var(--White);
+border-top: 10px solid transparent;
+border-left: 10px solid transparent;
+top: -20px;
+right: 0;
+}
+.tabs li{
+padding: 20px 30px;
+}
+.tabs li a{
+text-decoration: none;
+color: var(--Very-dark-grayish-blue);
+font-size: 1.11rem;
+padding: 1.11rem 2rem;
+}
+.show-tabs{
+display: block;
+}
+.tabs li a:hover{
+background: var(--Yellow);
+border-radius: 35px;
+font-family: 'Fraunces', sans-serif;
+color: var(--Very-dark-desaturated-blue);
+}
+
+.main-heading{
+color: var(--White);
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.4rem;
+margin-top: 70px;
+font-size: 2.5rem;
+}
+.arrow-icon{
+margin-top: 5rem;
+text-align: center;
+}
+.arrow-icon img{
+width: 40px;
+}
+.aboutAlt{
+    display: grid;
+    grid-template-columns: 1fr;
+}

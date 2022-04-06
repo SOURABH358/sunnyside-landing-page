@@ -1,0 +1,27 @@
+.footer{
+    background-color: var(--Dark-moderate-cyan);
+    text-align: center;
+    padding: 4rem 0;
+}
+.footer svg path{
+        fill: var(--Dark-desaturated-cyan);
+
+}
+.links{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.links a{
+    text-decoration: none;
+    color: var(--Dark-desaturated-cyan);
+    margin: 0 1rem;
+}
+.links a:hover{
+    color: var(--White);
+}
+.contact svg{
+    margin: 0 1rem;
+}
+.contact svg:hover path{
+    fill: var(--White);
+}
